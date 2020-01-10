@@ -25,9 +25,10 @@ img{
  
     display: flex;
     justify-content: right;
-    list-style: none;
+  
     margin-right: 15%;
 }
+
 
 .logo{
     flex:1 1 auto;
@@ -63,6 +64,13 @@ a:visited{ color:white; }
     height: auto;
   
     
+}
+li{
+    list-style: none;
+}
+.contact-area{
+    background-color: #1b262c;
+    color: white;
 }
 
 .text-part{
