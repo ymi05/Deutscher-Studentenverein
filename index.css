@@ -1,11 +1,11 @@
 body{
     margin:0;
     padding:0;
- 
     font-family: 'Germania One', cursive;
 }
 
 html{
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 .navbar{
@@ -44,44 +44,39 @@ html{
     color: white;
     padding-bottom: 3%;
     font-size: 29px;
-    margin: 20px 20px 0 20px;
-    
-  
-    
-    
-   
+    margin: 20px 20px 0 20px; 
 }
 .contact-area h1{
-
     font-size:55px;
 }
 .contact-area .text-part{
     margin-right:auto ;
-    padding-left:3%;
- 
-  
-   
+    padding-left:3%;  
 }
 
 .text-part{
     width: 65%;
     height: 80%;
-  
    
 }
 
 @media screen and (max-width:768px ){ 
     .contact-area{
-      /* height: auto; */
-       margin: 20px 20px 0 20px;
+       margin: 30% 20px 0 20px;
+       height: 100%;
     }
-    html{
-        overflow-x: hidden;
+    .contact-area a{
+   
+       font-size: 76%;
+       
+    }
   
-    }
     .carousel{
         padding-top:10%;
     
+    }
+    .contact-area .text-part{
+      width: 70%;
     }
     
 }
