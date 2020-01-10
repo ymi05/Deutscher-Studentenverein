@@ -1,7 +1,18 @@
 body{
     margin:0;
     padding:0;
+    /* height:0vh; */
+    font-family: 'Germania One', cursive;
 }
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+   position: fixed;
+   z-index: 55;
+   width: 100%;
+}
+
 .contact-area a,.contact-area li{
     text-decoration: none;
     color:white;
@@ -23,14 +34,16 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     width:100%;
-    height: auto;
+    height: 350px;
 }
 
 .contact-area {
     background-color: #1b262c;
     color: white;
     padding-bottom: 3%;
-    font-size: 34px;
+    font-size: 31px;
+    
+   
 }
 .contact-area h1{
  
@@ -42,3 +55,12 @@ body{
   
    
 }
+
+@media screen and (max-width:768px ){ 
+    .contact-area{
+       width: 100%;
+    }
+    /* body{
+        margin:0;
+        padding:0;
+    }
