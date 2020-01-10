@@ -1,16 +1,17 @@
 body{
     margin:0;
     padding:0;
-    /* height:0vh; */
+ 
     font-family: 'Germania One', cursive;
 }
+
 html{
     scroll-behavior: smooth;
 }
 .navbar{
    position: fixed;
    z-index: 55;
-   width: 100%;
+   width: 100vw;
 }
 
 .contact-area a,.contact-area li{
@@ -33,7 +34,7 @@ html{
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    width:100%;
+    /* width:100vw; */
     height: 350px;
 }
 
@@ -41,7 +42,7 @@ html{
     background-color: #1b262c;
     color: white;
     padding-bottom: 3%;
-    font-size: 31px;
+    font-size: 29px;
     
    
 }
@@ -58,8 +59,15 @@ html{
 
 @media screen and (max-width:768px ){ 
     .contact-area{
-       width: 100%;
+       width: 100vw;
     }
+    html{
+        overflow-x: hidden;
+    }
+    .carousel{
+        padding-top:10%;
+     }
+}
     /* body{
         margin:0;
         padding:0;
