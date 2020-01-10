@@ -7,6 +7,10 @@ body{
 
 html{
     scroll-behavior: smooth;
+    margin:0;
+    padding:0;
+    /* max-height:100vh; */
+  
 }
 .navbar{
    position: fixed;
@@ -45,6 +49,7 @@ html{
     padding-bottom: 3%;
     font-size: 29px;
     margin: 20px 20px 0 20px;
+    
   
     
     
@@ -71,17 +76,15 @@ html{
 
 @media screen and (max-width:768px ){ 
     .contact-area{
-       /* width: 100vw; */
+      /* height: auto; */
        margin: 20px 20px 0 20px;
     }
     html{
-        overflow-x: hidden;
+        overflow:hidden;
     }
     .carousel{
         padding-top:10%;
-     }
-}
-    /* body{
-        margin:0;
-        padding:0;
+    
     }
+    
+}
