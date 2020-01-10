@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    padding:0;
+}
+.contact-area a,.contact-area li{
+    text-decoration: none;
+    color:black;
+}
+
+.contact-area a:visited,.contact-area a:hover{
+    text-decoration: none;
+    color:black;
+}
+.contact-area li{
+    list-style: none;
+}
+
+/* main{
+    text-align: center;
+} */
+
+
+.contact-area, .about-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width:100%;
+    height: auto;
+}
+
+.text-part{
+    width: 65%;
+    height: 80%;
+   
+}
