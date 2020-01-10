@@ -4,20 +4,16 @@ body{
 }
 .contact-area a,.contact-area li{
     text-decoration: none;
-    color:black;
+    color:white;
 }
 
 .contact-area a:visited,.contact-area a:hover{
     text-decoration: none;
-    color:black;
+    color:white;
 }
 .contact-area li{
     list-style: none;
 }
-
-/* main{
-    text-align: center;
-} */
 
 
 .contact-area, .about-area{
@@ -30,8 +26,19 @@ body{
     height: auto;
 }
 
+.contact-area {
+    background-color: #1b262c;
+    color: white;
+    padding-bottom: 3%;
+    font-size: 34px;
+}
+.contact-area h1{
+ 
+    font-size:55px;
+}
 .text-part{
     width: 65%;
     height: 80%;
+  
    
 }
