@@ -39,7 +39,7 @@ a{
     margin:15px;
     text-decoration: none;
     text-transform: uppercase;
-    color:white;
+    color:inherit;
 }
 a:visited{ color:white; }
 .banner-area{
