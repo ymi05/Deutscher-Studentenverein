@@ -25,6 +25,7 @@ html{
 }
 .contact-area li{
     list-style: none;
+    padding:2%;
 }
 
 
@@ -43,13 +44,24 @@ html{
     color: white;
     padding-bottom: 3%;
     font-size: 29px;
+    margin: 20px 20px 0 20px;
+  
+    
     
    
 }
 .contact-area h1{
- 
+
     font-size:55px;
 }
+.contact-area .text-part{
+    margin-right:auto ;
+    padding-left:3%;
+ 
+  
+   
+}
+
 .text-part{
     width: 65%;
     height: 80%;
@@ -59,7 +71,8 @@ html{
 
 @media screen and (max-width:768px ){ 
     .contact-area{
-       width: 100vw;
+       /* width: 100vw; */
+       margin: 20px 20px 0 20px;
     }
     html{
         overflow-x: hidden;
