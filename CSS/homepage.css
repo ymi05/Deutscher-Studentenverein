@@ -32,6 +32,7 @@ img{
 .logo{
     flex:1 1 auto;
     margin-left:10% ;
+ 
 }
 
 a{
@@ -87,6 +88,11 @@ html{
 
 
 @media screen and (max-width:768px ){
+    body{
+        margin:0;
+        padding: 0;
+    
+    }
 
     .line{
         width:30px;
@@ -101,13 +107,14 @@ html{
     .hamburger{
         position: absolute;
         cursor: pointer;
-        right:5%;
+        right:5%;  
         top:50%;
         transform: translate(-5%,-50%);
         z-index: 2;
     }
     .logo{
         z-index: 2;
+       
     } 
 
 
@@ -120,7 +127,6 @@ html{
         justify-content: space-around;
         height:60vh;
         width: 100%;
-        color:black;
         align-items: center;
         clip-path:circle(100px at 0 -100%);
         -webkit-clip-path:circle(100px at 0 -100%);
