@@ -23,20 +23,44 @@ html{
     text-decoration: none;
     color:white;
 }
+
 .contact-area li{
     list-style: none;
     padding:2%;
 }
 
+.about-area a:visited,.about-area a:hover{
+    color:#166B60;
+    text-decoration: none;
+}
+.about-area a{
+    text-decoration: none;
+    color:#166B60;
+    border: solid 3px #166B60;
+    width: 15%;
+    height:10%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 130%;
+   margin-left:15px;
+
+}
+
+.about-area{
+    margin: 40px 0 100px 0; 
+
+}
 
 .contact-area, .about-area{
+    
+    padding-left:20px;
+    padding-right:20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    /* width:100vw; */
-    height: 350px;
+    height:90%;
 }
 
 .contact-area {
@@ -55,8 +79,10 @@ html{
 }
 
 .text-part{
+    flex:1;
     width: 65%;
     height: 80%;
+    text-align: justify;
    
 }
 
@@ -70,13 +96,30 @@ html{
        font-size: 76%;
        
     }
-  
+
     .carousel{
-        padding-top:10%;
-    
+        padding-top:0;
+
     }
     .contact-area .text-part{
       width: 70%;
     }
+    .about-area{
+        flex-direction: column;
     
+    }
+    .about-area a{
+        width: 70%;
+    
+    }
+
+    
+}
+
+@media screen and (max-width:587px ){
+    .carousel{
+        padding-top:10%;
+
+    }
+
 }
