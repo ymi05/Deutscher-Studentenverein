@@ -14,15 +14,12 @@ html{
    width: 100vw;
 }
 
-.contact-area a,.contact-area li{
+.contact-area a,.contact-area li,.contact-area a:visited,.contact-area a:hover{
     text-decoration: none;
     color:white;
 }
 
-.contact-area a:visited,.contact-area a:hover{
-    text-decoration: none;
-    color:white;
-}
+
 
 .contact-area li{
     list-style: none;
@@ -33,7 +30,7 @@ html{
     color:#166B60;
     text-decoration: none;
 }
-.about-area a{
+.about-area a,.events-area a{
     text-decoration: none;
     color:#166B60;
     border: solid 3px #166B60;
@@ -42,16 +39,19 @@ html{
     text-align: center;
     font-weight: bolder;
     font-size: 130%;
-   margin-left:15px;
+    margin-left:15px;
 
 }
 
-.about-area{
-    margin: 40px 0 100px 0; 
+.about-area,.events-area{
+    margin: 40px 0 30px 0; 
+    border: solid 3px #166B60;
+    padding-bottom: 6px;
+    align-items: flex-end;
 
 }
 
-.contact-area, .about-area{
+.contact-area, .about-area,.events-area{
     
     padding-left:20px;
     padding-right:20px;
@@ -62,6 +62,7 @@ html{
     flex-direction: row;
     height:90%;
 }
+
 
 .contact-area {
     background-color: #1b262c;
@@ -104,11 +105,12 @@ html{
     .contact-area .text-part{
       width: 70%;
     }
-    .about-area{
+    .about-area,.events-area{
         flex-direction: column;
+        align-items: center;
     
     }
-    .about-area a{
+    .about-area a,.events-area a{
         width: 70%;
     
     }
