@@ -43,7 +43,7 @@ html{
 }
 @media screen and (max-width:768px ){ 
     .group-picture img{
-      width: 65%;
+      width: 75%;
     }
 
 }
