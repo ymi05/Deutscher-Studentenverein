@@ -35,7 +35,6 @@ html{
 }
 .group-picture img{
     margin-top:3%;
-    /* border: ridge 0.1px black; */
     border-radius: 10%;
     width: auto;
     margin-right:auto;

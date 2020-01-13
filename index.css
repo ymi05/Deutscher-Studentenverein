@@ -116,6 +116,11 @@ img{
     .about-area a,.events-area a{
         width: 70%;
     
+    }.contact-area, .about-area,.events-area{
+    
+        margin-left:10px;
+        margin-right:10px;
+        
     }
 
     
