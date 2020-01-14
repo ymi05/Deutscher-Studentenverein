@@ -1,3 +1,8 @@
+<?php
+  $val = $_GET["page"];
+?>
+
+
 <!DOCTYPE html>
 <html>
   <head>
