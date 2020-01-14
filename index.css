@@ -3,7 +3,10 @@ body{
     padding:0;
     font-family: 'Germania One', cursive;
 }
-
+h1{
+    text-align: center;
+    font-size: 50px;
+}
 html{
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -21,6 +24,7 @@ html{
 
 
 
+
 .contact-area li{
     list-style: none;
     padding:2%;
@@ -34,18 +38,25 @@ html{
     text-decoration: none;
     color:#166B60;
     border: solid 3px #166B60;
-    width: 15%;
+    width: 25%;
     height:10%;
     text-align: center;
     font-weight: bolder;
     font-size: 130%;
-    margin-left:15px;
+    /* margin-left:15px; */
+    float: right;
+    clear: right;
+    margin:45px;
+    position: relative;
+    right:33%;
+  
+
 
 }
 
 .about-area,.events-area{
-    margin: 40px 0 30px 0; 
-    padding-bottom: 6px;
+    margin: 30px 0 30px 0; 
+    padding-bottom: 3px;
     align-items: flex-end;
 
 }
@@ -69,6 +80,8 @@ html{
     padding-bottom: 3%;
     font-size: 29px;
     margin: 20px 20px 0 20px; 
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
 }
 .contact-area h1{
     font-size:55px;
@@ -86,6 +99,8 @@ html{
    
 }
 
+
+
 img{
     padding: 100% auto;
 }
@@ -94,6 +109,7 @@ img{
     .contact-area{
        margin: 30% 20px 0 20px;
        height: 100%;
+      
     }
     .contact-area a{
    
@@ -115,15 +131,13 @@ img{
     }
     .about-area a,.events-area a{
         width: 70%;
+        position: unset;
     
     }.contact-area, .about-area,.events-area{
     
         margin-left:0px;
         margin-right:0px;
         
-    }
-    p{
-        word-spacing: normal;
     }
 
     
