@@ -11,22 +11,21 @@ html{
     width: 65%;
     height: 80%;
     text-align: justify;
+    margin-left: 20%;
    
 }
 .Events-area{
     
     margin-left:30px;
     margin-right:30px;
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap; */
-    /* flex-direction: row; */
+    text-align: center;
     height:90%;
 }
 
 hr{
     border: solid 2px black;
+    margin-left:30px;
+    margin-right:30px;
 }
 
 /* .event li{
@@ -60,9 +59,11 @@ hr{
  
 }
 
+
 .info{
     display: inline-block;
     text-align: center;
+    text-indent: 5em;
     
 }
 .event p{

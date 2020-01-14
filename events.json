@@ -1,0 +1,18 @@
+{
+	"events" : [
+		{
+			"title": "German CLass",
+			"id":1,
+			"start": "Saturday, February 15, 2020 @ 12:00 AM",
+			"end": "Saturday, February 15, 2020 @ 2:00 PM",
+			"location" : "AUB - WestHall - Aud A"
+		},
+		{
+			"title": "Football Match",
+			"id":1,
+			"start": "Sunday, February 15, 2020 @ 12:00 AM",
+			"end": "Sunday, February 15, 2020 @ 2:00 PM",
+			"location" : "AUB - GreenField"
+		}
+	]
+}
