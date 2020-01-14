@@ -54,7 +54,6 @@ h2 ,#extraInfo p{
     text-align: center;
     font-weight: bolder;
     font-size: 130%;
-    /* margin-left:15px; */
     float: right;
     clear: right;
     margin:45px;
@@ -68,8 +67,7 @@ h2 ,#extraInfo p{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* justify-content: space-around; */
- justify-content: stretch;
+    justify-content: stretch;
 }
 
 #extraInfo{
@@ -98,7 +96,7 @@ h2 ,#extraInfo p{
 .contact-area {
     background-color: #1b262c;
     color: white;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
     font-size: 29px;
     margin: 20px 20px 0 20px; 
     border-top-left-radius: 1%;
@@ -117,7 +115,6 @@ h2 ,#extraInfo p{
     width: 65%;
     height: 80%;
     text-align: justify;
-   
 }
 
 
@@ -174,6 +171,14 @@ img{
 @media screen and (max-width:587px ){
     .carousel{
         padding-top:10%;
+
+    }
+
+}
+@media screen and (max-width:449px ){
+    #extraInfo p{
+        width:55%;
+        margin-left:43% ;
 
     }
 
