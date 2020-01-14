@@ -35,21 +35,21 @@ hr{
     border-top-style:dotted ;
 } */
 
-.info{
+/* .info{
     margin-left: 40px;
-}
+} */
 
-.initail{
+/* .initail{
     width:30px;
-}
-.listing{
+} */
+/* .listing{
 
     padding: 25px 40px 40px;
     background-color: #fff;
     margin-bottom: 10px;
-}
+} */
 .listing ul.tabular-data {
-    padding-right: 80px;
+    /* padding-right: 80px; */
     margin-bottom: 20px;
 }
 .listing ul.tabular-data > li {
@@ -61,20 +61,26 @@ hr{
 }
 
 .info{
-    padding-left:30%;
-    font-size: 70%;
+    display: inline-block;
+    text-align: center;
     
 }
-
+.event p{
+    margin-left:6%;
+    margin-right:6%;
+}
 @media screen and (max-width:768px ){ 
     .info{
         
-        padding-left:20%;
-        font-size: 50%;
+        padding-left:16%;
+        font-size: 70%;
      
     
     }
     span{
-        font-size: 50%;
+        font-size: 70%;
+    }
+    li{
+        margin-right: 70%;
     }
 }
