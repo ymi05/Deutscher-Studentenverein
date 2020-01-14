@@ -28,13 +28,18 @@ html{
 }
 h2 ,#extraInfo p{
     text-align: center;
-    margin-left: 45%;
+    margin-left: 50%;
     text-align: center;
 
     margin-right: 1%;
 }
 #extraInfo p{
+
     font-size: 45%;
+    border: solid 2px #166B60;
+    margin-left: 60%;
+    color:grey;
+    width: 33%;
 }
 .about-area a:visited,.about-area a:hover{
     color:#166B60;
@@ -128,12 +133,17 @@ img{
       
     }
     .contact-area a{
-   
        font-size: 76%;
        
     }
     h2{
         font-size: 70%;
+    }
+    /* #extraInfo p{
+        text-align: left;
+    } */
+    .contact-area a,.contact-area li{
+        font-size: 80%;
     }
     .carousel{
         padding-top:0;
