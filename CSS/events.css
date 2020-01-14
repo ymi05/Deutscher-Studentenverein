@@ -11,7 +11,6 @@ html{
     width: 65%;
     height: 80%;
     text-align: justify;
-    margin-left: 20%;
    
 }
 .Events-area{
@@ -66,7 +65,7 @@ hr{
     text-indent: 5em;
     
 }
-.event p{
+.listing p{
     margin-left:6%;
     margin-right:6%;
 }

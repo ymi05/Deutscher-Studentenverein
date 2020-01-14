@@ -17,11 +17,15 @@ function loadEvents(){
         let event_start = event.start;
         let event_end = event.end;
         let event_location = event.location;
+        let event_details = event.details;
         let information  = [event_title,event_start,event_end,event_location];
         let event_div = document.createElement("div");
         event_div.classList.add("event");
         event_div.appendChild(returnList(information));
         document.querySelector(".listing").appendChild(event_div);
+        let paragraphh = document.createElement("p");
+        paragraphh.innerHTML = event_details;
+        document.querySelector(".listing").appendChild(paragraphh);
         let hr = document.createElement("hr");
         document.querySelector(".listing").appendChild(hr);
 
@@ -41,6 +45,7 @@ function returnList(information){
     list.classList.add("tabular-data");
     let header = document.createElement("h3");
     header.innerHTML = information[0];
+   
     let details = ["Start:","End:","Location:"];
     list.appendChild(header);
     
