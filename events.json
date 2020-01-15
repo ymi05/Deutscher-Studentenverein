@@ -8,7 +8,7 @@
 			"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ut eaque amet accusamus? Vel rem sit tempora debitis numquam vero tenetur a commodi tempore non alias praesentium nam, perspiciatis aperiam."
 		},
 		{
-			"title": "German CLass",
+			"title": "German Class",
 			"start": "Sunday, February 16, 2020 @ 12:00 AM",
 			"end": "Sunday, February 16, 2020 @ 4:00 PM",
 			"location" : "AUB - WestHall - Aud A",
@@ -19,6 +19,14 @@
 			"start": "Monday, February 18, 2020 @ 10:00 AM",
 			"end": "Monday, February 18, 2020 @ 2:00 PM",
 			"location" : "AUB - GreenField",
+			"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ut eaque amet accusamus? Vel rem sit tempora debitis numquam vero tenetur a commodi tempore non alias praesentium nam, perspiciatis aperiam."
+		}
+		,
+		{
+			"title": "Club Meeting",
+			"start": "Monday, March 16, 2020 @ 1:00 PM",
+			"end": "Monday, March 16, 2020 @ 4:00 PM",
+			"location" : "AUB - SLH",
 			"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ut eaque amet accusamus? Vel rem sit tempora debitis numquam vero tenetur a commodi tempore non alias praesentium nam, perspiciatis aperiam."
 		}
 	]

@@ -1,11 +1,4 @@
-
-
-
-
 loadEvents();
-
-
-
 function loadEvents(){
     fetch("../events.json")//fetch returns promise
     .then(function(res){
@@ -13,30 +6,34 @@ function loadEvents(){
     })
     .then(function (data) {    
         data.events.forEach(function(event){
-            let event_title = event.title;
+        let event_title = event.title;
         let event_start = event.start;
         let event_end = event.end;
         let event_location = event.location;
         let event_details = event.details;
         let information  = [event_title,event_start,event_end,event_location];
+        // ---------------------------------------------------------
         let event_div = document.createElement("div");
         event_div.classList.add("event");
         event_div.appendChild(returnList(information));
+        // ---------------------------------------------------------
         document.querySelector(".listing").appendChild(event_div);
         let paragraphh = document.createElement("p");
         paragraphh.innerHTML = event_details;
         document.querySelector(".listing").appendChild(paragraphh);
+        // ---------------------------------------------------------
         let hr = document.createElement("hr");
         document.querySelector(".listing").appendChild(hr);
+        // ---------------------------------------------------------
 
         
+        });
+    
+    
+    })
+    .catch(function(err){ //to catch an error
+        console.log("Failed to retrive data from JSON file.");
     });
-    
-    
-})
-.catch(function(err){ //to catch an error
-    console.log("Error");
-});
 }
 
 

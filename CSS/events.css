@@ -22,32 +22,12 @@ html{
 }
 
 hr{
-    border: solid 2px black;
+    border: solid 2px #166B60;
     margin-left:30px;
     margin-right:30px;
 }
 
-/* .event li{
-    list-style: none;
-    border-bottom-style:dotted ;
-    border-top-style:dotted ;
-} */
-
-/* .info{
-    margin-left: 40px;
-} */
-
-/* .initail{
-    width:30px;
-} */
-/* .listing{
-
-    padding: 25px 40px 40px;
-    background-color: #fff;
-    margin-bottom: 10px;
-} */
 .listing ul.tabular-data {
-    /* padding-right: 80px; */
     margin-bottom: 20px;
 }
 .listing ul.tabular-data > li {
@@ -55,8 +35,13 @@ hr{
     padding: 8px 0;
     display: table;
     width: 100%;
+
  
 }
+.listing {
+    margin-right: 2%;
+}
+
 
 
 .info{
@@ -82,5 +67,12 @@ hr{
     }
     li{
         margin-right: 70%;
+    }
+    .text-part{
+        margin-left: 10%;
+        
+    }
+    .text-part p{
+       width: 130%;
     }
 }
