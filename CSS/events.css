@@ -24,7 +24,7 @@ html{
 hr{
     border: solid 2px #166B60;
     margin-left:30px;
-    margin-right:30px;
+    /* margin-right:10px; */
 }
 
 .listing ul.tabular-data {
@@ -70,7 +70,7 @@ hr{
         font-size: 70%;
         width: 80%;
     } */
-    li{
+    .listing li{
         margin-right: 70%;
     }
     .text-part{

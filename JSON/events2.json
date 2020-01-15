@@ -1,0 +1,25 @@
+{
+	"events" : [
+		{
+			"title": "Open Wings Event",
+			"start": "Thursday, March 19, 2020 @ 7:00 PM",
+			"end": "Thursday, March 16, 2020 @ 10:00 PM",
+			"location" : "Mr.International",
+			"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ut eaque amet accusamus? Vel rem sit tempora debitis numquam vero tenetur a commodi tempore non alias praesentium nam, perspiciatis aperiam."
+		},
+		{
+			"title": "German Class",
+			"start": "Friday, March 20, 2020 @ 1:00 PM",
+			"end": "Friday, March 20, 2020 @ 3:00 PM",
+			"location" : "WestHall Common Room",
+			"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ut eaque amet accusamus? Vel rem sit tempora debitis numquam vero tenetur a commodi tempore non alias praesentium nam, perspiciatis aperiam."
+		},
+		{
+			"title": "basketBall Match",
+			"start": "Sunday, March 22, 2020 @ 1:00 PM",
+			"end": "Sunday, March 22, 2020 @ 2:00 PM",
+			"location" : "Charles Hostler",
+			"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ut eaque amet accusamus? Vel rem sit tempora debitis numquam vero tenetur a commodi tempore non alias praesentium nam, perspiciatis aperiam."
+		}
+	]
+}

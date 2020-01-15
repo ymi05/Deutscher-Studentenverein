@@ -23,7 +23,6 @@ html{
 }
 .contact-area li{
     list-style: none;
-    /* padding:2%; */
     width: 160%;
 }
 h2 ,#extraInfo p{
@@ -38,7 +37,6 @@ h2 ,#extraInfo p{
     font-size: 45%;
     border: solid 2px #166B60;
     margin-left: 60%;
-    /* color:grey; */
     width: 33%;
 }
 .about-area a:visited,.about-area a:hover{
@@ -74,7 +72,7 @@ h2 ,#extraInfo p{
     flex:1;
 }
 .about-area,.events-area{
-    margin: 30px 0 30px 0; 
+    margin: 25px 0 30px 0; 
     padding-bottom: 3px;
     align-items: flex-end;
 
@@ -136,9 +134,6 @@ img{
     h2{
         font-size: 70%;
     }
-    /* #extraInfo p{
-        text-align: left;
-    } */
     .contact-area a,.contact-area li{
         font-size: 80%;
     }
