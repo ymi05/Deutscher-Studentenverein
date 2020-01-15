@@ -39,7 +39,7 @@ hr{
  
 }
 .listing {
-    margin-right: 2%;
+    margin-right: 9%;
 }
 
 
@@ -60,6 +60,7 @@ hr{
         
         /* padding-left:16%; */
         font-size: 65%;
+        width:80%;
 
         
      
