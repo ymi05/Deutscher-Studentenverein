@@ -11,14 +11,14 @@
 			"title": "German Class",
 			"start": "Friday, March 20, 2020 @ 1:00 PM",
 			"end": "Friday, March 20, 2020 @ 3:00 PM",
-			"location" : "WestHall Common Room",
+			"location" : "AUB - WestHall Common Room",
 			"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ut eaque amet accusamus? Vel rem sit tempora debitis numquam vero tenetur a commodi tempore non alias praesentium nam, perspiciatis aperiam."
 		},
 		{
-			"title": "basketBall Match",
+			"title": "BasketBall Match",
 			"start": "Sunday, March 22, 2020 @ 1:00 PM",
 			"end": "Sunday, March 22, 2020 @ 2:00 PM",
-			"location" : "Charles Hostler",
+			"location" : "AUB - Charles Hostler",
 			"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ut eaque amet accusamus? Vel rem sit tempora debitis numquam vero tenetur a commodi tempore non alias praesentium nam, perspiciatis aperiam."
 		}
 	]
