@@ -52,20 +52,23 @@ hr{
 }
 .listing p{
     margin-left:9%;
-    margin-right:9%;
+    margin-right:6%;
     text-align: justify;
 }
 @media screen and (max-width:768px ){ 
-    .info{
+    span{
         
-        padding-left:16%;
-        font-size: 70%;
+        /* padding-left:16%; */
+        font-size: 65%;
+
+        
      
     
     }
-    span{
+    /* span{
         font-size: 70%;
-    }
+        width: 80%;
+    } */
     li{
         margin-right: 70%;
     }

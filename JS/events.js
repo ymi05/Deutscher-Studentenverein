@@ -25,8 +25,6 @@ function loadEvents(){
         let hr = document.createElement("hr");
         document.querySelector(".listing").appendChild(hr);
         // ---------------------------------------------------------
-
-        
         });
     
     
@@ -52,7 +50,6 @@ function returnList(information){
         let item = document.createElement("li");
         let initail_span = document.createElement("span");
         initail_span.innerHTML = details[i];
-        console.log("here"); 
         let info_span = document.createElement("span");
         info_span.classList.add("info");
         info_span.innerHTML = information[i+1];
