@@ -1,6 +1,6 @@
 loadEvents();
 function loadEvents(){
-    fetch("../events.json")//fetch returns promise
+    fetch("../JSON_files/events.json")//fetch returns promise
     .then(function(res){
       return res.json(); //returns the text
     })
