@@ -23,6 +23,7 @@ html{
     flex-wrap: wrap;
     flex-direction: row;
     height:90%;
+    margin-top: 20px;
 }
 
 
@@ -40,6 +41,22 @@ html{
     margin-right:auto;
     margin-left:auto ;
 }
+.card{
+    width: 60%;
+    margin-left: 22%;
+}
+.cabinet h1{
+    text-align: center;
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+}
+hr{
+    border: solid 4px #166B60;
+    border-bottom-style: none;
+    margin-left:30px;
+    margin-right:30px;
+}
+
 @media screen and (max-width:768px ){ 
     .group-picture img{
       width: 80%;

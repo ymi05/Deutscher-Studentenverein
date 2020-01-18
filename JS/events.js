@@ -7,6 +7,8 @@ for(let i = 0;i<page_numbers.length;i++){
 }
 var allPrev = document.querySelectorAll(".prev");
 var allNext = document.querySelectorAll(".next");
+
+
 loadEvents();
 function loadEvents(){
     if(window_loaded){
@@ -27,7 +29,6 @@ function loadEvents(){
         link_clicked = current_page;
     }
     else{
-        console.log("next has not been clicked?");
         link_clicked = this.innerHTML;
         current_page = link_clicked
      
