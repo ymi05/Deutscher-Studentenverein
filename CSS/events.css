@@ -16,12 +16,10 @@ html{
     width: 65%;
     height: 80%;
     text-align: justify;
+    padding-top: 8%;
    
 }
-.text-part{
-   padding-top: 5%;
-   
-}
+
 .Events-area{
     
     margin-left:30px;
@@ -86,9 +84,17 @@ hr{
     }
     .text-part{
         margin-left: 10%;
+        padding-top: 10%;
         
     }
     .text-part p{
        width: 130%;
     }
+}
+@media screen and (max-width:553px ){ 
+    .text-part{
+        padding-top: 17%;
+        
+    }
+
 }
