@@ -1,0 +1,187 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Germania One', cursive;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.navbar{
+   position: fixed;
+   z-index: 55;
+   width: 100vw;
+}
+
+.contact-area a,.contact-area li,.contact-area a:visited,.contact-area a:hover{
+    text-decoration: none;
+    color:white;
+}
+.contact-area li{
+    list-style: none;
+    width: 160%;
+}
+h2 ,#extraInfo p{
+    text-align: center;
+    margin-left: 50%;
+    text-align: center;
+
+    margin-right: 1%;
+}
+#extraInfo p{
+
+    font-size: 45%;
+    border: solid 2px #166B60;
+    margin-left: 60%;
+    width: 33%;
+}
+.about-area a:visited,.about-area a:hover{
+    color:#166B60;
+    text-decoration: none;
+}
+.about-area a,.events-area a{
+    text-decoration: none;
+    color:#166B60;
+    border: solid 3px #166B60;
+    width: 45%;
+    height:10%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 130%;
+    float: right;
+    clear: right;
+    margin:45px;
+    position: relative;
+    right:23%;
+  
+
+
+}
+#info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+#extraInfo{
+    flex:1;
+}
+.about-area,.events-area{
+    margin: 35px 0 30px 0; 
+    padding-bottom: 3px;
+    align-items: flex-end;
+
+}
+
+.contact-area, .about-area,.events-area{
+    
+    margin-left:100px;
+    margin-right:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height:90%;
+}
+
+
+.contact-area {
+    background-color: #1b262c;
+    color: white;
+    padding-bottom: 1%;
+    font-size: 29px;
+    margin: 20px 20px 0 20px; 
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+}
+.contact-area h1{
+    font-size:55px;
+}
+.contact-area .text-part{
+    margin-right:auto ;
+    padding-left:3%;  
+}
+
+.text-part{
+    flex:1;
+    width: 65%;
+    height: 80%;
+    text-align: justify;
+   
+}
+.text-part p{
+    font-size: 130%;
+}
+
+
+
+img{
+    padding: 100% auto;
+}
+
+@media screen and (max-width:768px ){ 
+    .contact-area{
+       margin: 30% 20px 0 20px;
+       height: 100%;
+      
+    }
+    .contact-area a{
+       font-size: 76%;
+       
+    }
+    h2{
+        font-size: 70%;
+    }
+    .contact-area a,.contact-area li{
+        font-size: 80%;
+    }
+    .carousel{
+        padding-top:0;
+
+    }
+    .contact-area .text-part{
+      width: 70%;
+    }
+    .about-area,.events-area{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .about-area a,.events-area a{
+        width: 70%;
+        position: unset;
+    
+    }.contact-area, .about-area,.events-area{
+    
+        margin-left:0px;
+        margin-right:0px;
+        
+    }
+    .text-part p{
+        font-size: 90%;
+    }
+
+    
+}
+
+@media screen and (max-width:587px ){
+    .carousel{
+        padding-top:10%;
+
+    }
+
+}
+@media screen and (max-width:449px ){
+    #extraInfo p{
+        width:55%;
+        margin-left:43% ;
+
+    }
+
+}

@@ -100,7 +100,7 @@ function loadEvents(){
 function returnList(information){
     let list = document.createElement("ul");
     list.classList.add("tabular-data");
-    let header = document.createElement("h3");
+    let header = document.createElement("h2");
     header.innerHTML = information[0];
    
     let details = ["Start:","End:","Location:"];

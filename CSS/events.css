@@ -6,11 +6,20 @@ body{
 html{
     overflow-x: hidden;
 }
+.navbar{
+    position: fixed;
+    z-index: 55;
+    width: 100vw;
+ }
 .text-part{
     flex:1;
     width: 65%;
     height: 80%;
     text-align: justify;
+   
+}
+.text-part{
+   padding-top: 5%;
    
 }
 .Events-area{
@@ -24,9 +33,11 @@ html{
 hr{
     border: solid 2px #166B60;
     margin-left:30px;
-    /* margin-right:10px; */
 }
 
+.page-link{
+    color:#166B60;
+}
 .listing ul.tabular-data {
     margin-bottom: 20px;
 }
@@ -59,7 +70,7 @@ hr{
     span{
         
         /* padding-left:16%; */
-        font-size: 65%;
+        font-size: 68.3%;
         width:80%;
 
         

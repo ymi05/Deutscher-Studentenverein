@@ -6,12 +6,21 @@ body{
 html{
     overflow-x: hidden;
 }
+.navbar{
+    position: fixed;
+    z-index: 55;
+    width: 100%;
+}
+ 
 .text-part{
     flex:1;
     width: 65%;
     height: 80%;
     text-align: justify;
    
+}
+.group-picture{
+    padding-top: 5%;
 }
 .mission-area{
     
@@ -34,6 +43,7 @@ html{
 .group-picture{
     text-align: center;
 }
+
 .group-picture img{
     margin-top:3%;
     border-radius: 10%;
@@ -42,13 +52,14 @@ html{
     margin-left:auto ;
 }
 .card{
-    width: 60%;
-    margin-left: 22%;
+    width: 50%;
+    margin-left: 26%;
 }
 .cabinet h1{
     text-align: center;
     margin-top: 10px; 
     margin-bottom: 20px; 
+    font-size: 60px;
 }
 hr{
     border: solid 4px #166B60;
@@ -57,9 +68,22 @@ hr{
     margin-right:30px;
 }
 
-@media screen and (max-width:768px ){ 
+@media screen and (max-width:773px ){ 
     .group-picture img{
       width: 80%;
+    }
+    .cabinet h1{
+        font-size: 50px;
+    }
+    .group-picture{
+        padding-top: 10%;
+    }
+
+}
+@media screen and (max-width:443px ){ 
+ 
+    .group-picture{
+        padding-top: 15%;
     }
 
 }
