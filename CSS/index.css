@@ -33,7 +33,6 @@ h2 ,#extraInfo p{
     margin-right: 1%;
 }
 #extraInfo p{
-
     font-size: 45%;
     border: solid 2px #166B60;
     margin-left: 60%;
@@ -173,7 +172,6 @@ img{
 @media screen and (max-width:587px ){
     .carousel{
         padding-top:10%;
-
     }
 
 }

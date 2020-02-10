@@ -19,7 +19,13 @@ html{
     padding-top: 8%;
    
 }
-
+.text-part p{
+    font-size: 120%;
+ }
+.text-part h1{
+    font-size:300%;
+ }
+/* ------------------------------------------------------------------------- */
 .Events-area{
     
     margin-left:30px;
@@ -28,14 +34,14 @@ html{
     height:90%;
 }
 
+.page-link{
+    color:black;
+}
 hr{
     border: solid 2px #166B60;
     margin-left:30px;
 }
 
-.page-link{
-    color:#166B60;
-}
 .listing ul.tabular-data {
     margin-bottom: 20px;
 }
@@ -66,26 +72,15 @@ hr{
 }
 @media screen and (max-width:768px ){ 
     span{
-        
-        /* padding-left:16%; */
         font-size: 68.3%;
         width:80%;
-
-        
-     
-    
     }
-    /* span{
-        font-size: 70%;
-        width: 80%;
-    } */
     .listing li{
         margin-right: 70%;
     }
     .text-part{
         margin-left: 10%;
         padding-top: 10%;
-        
     }
     .text-part p{
        width: 130%;
@@ -94,7 +89,6 @@ hr{
 @media screen and (max-width:553px ){ 
     .text-part{
         padding-top: 17%;
-        
     }
 
 }
